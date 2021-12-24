@@ -1,0 +1,13 @@
+Field name	Type	Description
+Name	String	Country, territory, area
+WHO_region	String	WHO Region
+Cases - cumulative total	Integer	Cumulative confirmed cases reported to WHO to date.
+Cases - cumulative total per 100000 population	Decimal	Cumulative confirmed cases reported to WHO to date per 100,000 population.
+Cases - newly reported in last 7 days	Integer	New confirmed cases reported in the last 7 days. Calculated by subtracting previous cumulative case count (8 days prior) from current cumulative cases count.
+Cases - newly reported in last 7 days per 100000 population	Decimal	New confirmed cases reported in the last 7 days per 100,000 population.
+Cases - newly reported in last 24 hours	Integer	New confirmed cases reported in the last 24 hours. Calculated by subtracting previous cumulative case count from current cumulative cases count.
+Deaths - cumulative total	Integer	Cumulative confirmed deaths reported to WHO to date.
+Deaths - cumulative total per 100000 population	Decimal	Cumulative confirmed deaths reported to WHO to date per 100,000 population.
+Deaths - newly reported in last 7 days	Integer	New confirmed deaths reported in the last 7 days. Calculated by subtracting previous cumulative death count (8 days prior) from current cumulative deaths count.
+Deaths - newly reported in last 7 days per 100000 population	Decimal	New confirmed deaths reported in the last 7 days per 100,000 population.
+Deaths - newly reported in last 24 hours	Integer	New confirmed deaths reported in the last 24 hours. Calculated by subtracting previous cumulative death count from current cumulative deaths count.
