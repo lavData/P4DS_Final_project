@@ -1,0 +1,10 @@
+Field name	Type	Description
+ISO3	String	ISO Alpha-3 country code
+VACCINE_NAME	String	Combined short name of vaccine: âCompany - Product nameâ (see below)
+PRODUCT_NAME	String	Name or label of vaccine product, or type of vaccine (if unnamed).
+COMPANY_NAME	String	Marketing authorization holder of vaccine product.
+AUTHORIZATION_DATE	Date	Date vaccine product was authorised for use in the country, territory, area.
+START_DATE	Date	Start/launch date of vaccination with vaccine type (excludes vaccinations during clinical trials).
+END_DATE	Date	End date of vaccine rollout
+COMMENT	String	Comments related to vaccine rollout
+DATA_SOURCE	String	Indicates data source - REPORTING: Data reported by Member States, or sourced from official reports - OWID: Data sourced from Our World in Data: https://ourworldindata.org/covid-vaccinations
